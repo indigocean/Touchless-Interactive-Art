@@ -1,0 +1,45 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv33beta12.dtd" >
+   <PATCH nodename="C:\Dokumente und Einstellungen\kalle\Desktop\TESTPATTERN\Pick (Color) help.v4p">
+   <BOUNDS height="2505" left="195" top="4965" type="Window" width="8535">
+   </BOUNDS>
+   <NODE componentmode="Hidden" id="2" nodename="Pick (Color).v4p">
+   <BOUNDS height="100" left="7590" top="660" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS left="7590" top="660" type="Box">
+   </BOUNDS>
+   <PIN pinname="Color" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="1" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="15" top="1110" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="12045" top="10815" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="810" left="15" top="1110" type="Box" width="7620">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="23">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="1" dstpinname="Color Input" srcnodeid="2" srcpinname="Color">
+   </LINK>
+   <NODE componentmode="InABox" id="0" nodename="IOBox (String)">
+   <BOUNDS height="690" left="105" top="120" type="Node" width="4410">
+   </BOUNDS>
+   <BOUNDS height="930" left="105" top="120" type="Box" width="7425">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|Drag Cursor with LEFT   button to change HUE and LIGHTNESS&cr;&lf;Drag Cursor with MIDDLE button to change SATURATION&cr;&lf;Drag Cursor with RIGHT  button to change ALPHA|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Courier New|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   </NODE>
+   </PATCH>
